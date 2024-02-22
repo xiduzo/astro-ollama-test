@@ -1,3 +1,29 @@
+# How to start this project
+
+## Prerequisites
+
+1. You need to have [node.js](https://nodejs.org/en/) installed on your machine.
+2. You need to have a [open api key](https://platform.openai.com/api-keys)
+
+## Installation
+
+1. Download/clone this repository
+2. Open a terminal and navigate to the root of the project
+3. Run `npm install` to install all the dependencies
+4. Rename the `.env.example` file to `.env` and add your open api key to the `OPENAI_API_KEY` variable
+
+## Running the project
+
+1. Run `npm run dev` to start the development server
+
+---
+
+<br/><br/><br/>
+
+---
+
+This project is created with `npm create astro@latest`, more information can be found below.
+
 # Astro Starter Kit: Basics
 
 ```sh
