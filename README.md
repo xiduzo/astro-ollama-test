@@ -3,14 +3,15 @@
 ## Prerequisites
 
 1. You need to have [node.js](https://nodejs.org/en/) installed on your machine.
-2. You need to have a [open api key](https://platform.openai.com/api-keys)
+2. You need to have an [openAI API key](https://platform.openai.com/api-keys)
+3. You need to have a custom [openAI assistant](https://platform.openai.com/assistants) created
 
 ## Installation
 
 1. Download/clone this repository
 2. Open a terminal and navigate to the root of the project
 3. Run `npm install` to install all the dependencies
-4. Rename the `.env.example` file to `.env` and add your open api key to the `OPENAI_API_KEY` variable
+4. Rename the `.env.example` file to `.env` and fill in your values
 
 ## Running the project
 

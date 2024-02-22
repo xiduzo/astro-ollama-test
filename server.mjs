@@ -30,7 +30,7 @@ app.post("/question", async (req, res) => {
   });
   console.log("ollama", { response });
   const assistant = await openai.beta.assistants.retrieve(
-    "asst_VtQvt43lzHj4iWTjmv3JwruH"
+    process.env.OPENAI_ASSISTANT_ID
   );
   const thread = await openai.beta.threads.create();
   const message = await openai.beta.threads.messages.create(thread.id, {
